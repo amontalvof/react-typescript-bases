@@ -1,6 +1,7 @@
-import Counter from './bases/Counter';
-import CounterBy from './bases/CounterBy';
-import CounterEffect from './bases/CounterEffect';
+import Counter from './components/Counter';
+import CounterBy from './components/CounterBy';
+import CounterEffect from './components/CounterEffect';
+import CounterHook from './components/CounterHook';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <CounterBy />
             <CounterEffect />
             <CounterEffect />
+            <CounterHook />
         </>
     );
 }
