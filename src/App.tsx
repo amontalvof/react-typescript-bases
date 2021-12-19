@@ -2,7 +2,8 @@ import Counter from './components/Counter';
 import CounterBy from './components/CounterBy';
 import CounterEffect from './components/CounterEffect';
 import CounterHook from './components/CounterHook';
-import CounterReducer from './components/CounterReducer';
+import CounterReducer from './counter-reducer/CounterReducer';
+// import CounterReducer from './components/CounterReducer';
 
 function App() {
     return (
